@@ -21,6 +21,11 @@ file = "mmcpack/patches/com.unascribed.unsup.json"
 hash = "4380409776bdcea4753144db54a8e63f1a3085aef6559a3d3a7b3e083421dd53"
 
 [[files]]
+file = "mods/amecs.pw.toml"
+hash = "239f5be6fad0f8e0fe488a3891c857d69d18270008b0a41f37485ee44bf71a85"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "ef9b3d887d5b2b31809fda35b2bfa4d68346e4491d4b52128358c2ed77741b89"
 metafile = true
