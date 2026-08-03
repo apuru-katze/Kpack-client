@@ -23,38 +23,63 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout current branch
-        uses: actions/checkout@v7
+      # Error handler
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: main
+          path: main
 
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: dev
+          path: dev
+
+      # workflow steps
       - name: Prepare output folder
         run: |
 
-          mkdir -p out/26.2 out/26.1.2
+          mkdir -p out
+          echo "<h1>Blank Repository</h1><p>Status: 200 OK</p>" > out/index.html
 
-          # version 26.2
-          cp -r 26.2/* out/26.2/
-          rm -rf out/26.2/mmcpack
-          (
-            cd 26.2/mmcpack
-            zip -r ../../out/26.2/modpack.zip .
-          )
+          build_pack() {
+            local branch=$1
+            local version=$2
+            
+            if [ -d "$branch/$version" ]; then
+              echo "deploy $branch version $version..."
+              
+              mkdir -p out/$branch/$version
+              cp -r $branch/$version/* out/$branch/$version/
 
-          # version 26.1.2
-          cp -r 26.1.2/* out/26.1.2/
-          rm -rf out/26.1.2/mmcpack
-          (
-            cd 26.1.2/mmcpack
-            zip -r ../../out/26.1.2/modpack.zip .
-          )
+              if [ -d "out/$branch/$version/mmcpack" ]; then
+                rm -rf out/$branch/$version/mmcpack
+                (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/modpack.zip .)
+                echo "-> modpack.zip has been created in out/$branch/$version."
+              else
+                echo "-> Warning: no mmcpack folder found in out/$branch/$version."
+              fi
+            else
+              echo "Info: Folder $version has no $branch. Exclude."
+            fi
+          }
+
+          build_pack main 26.2
+          build_pack main 26.1.2
+          build_pack dev 26.2
+          build_pack dev 26.1.2
 
       - name: Setup Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "out"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
