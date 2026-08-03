@@ -1,0 +1,13 @@
+name = "Kucing testpack"
+author = "apuru-katze"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d63450ecc1b08335fb5643275d4fa2909a18daa0c0de22c1245cc8e83b9bc0d0"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "26.2"

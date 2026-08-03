@@ -1,0 +1,85 @@
+name: Deploy packwiz pack to GitHub Pages
+
+on:
+  push:
+    branches: ["dev", "main"]
+    paths: ["26.2/**", "26.1.2/**"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # Error handler
+      - name: Checkout main branch
+        uses: actions/checkout@v7
+        continue-on-error: true
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout dev branch
+        uses: actions/checkout@v7
+        continue-on-error: true
+        with:
+          ref: dev
+          path: dev
+
+      # workflow steps
+      - name: Prepare output folder
+        run: |
+
+          mkdir -p out
+          echo "<h1>Blank Repository</h1><p>Status: 200 OK</p>" > out/index.html
+
+          build_pack() {
+            local branch=$1
+            local version=$2
+            
+            if [ -d "$branch/$version" ]; then
+              echo "deploy $branch version $version..."
+              
+              mkdir -p out/$branch/$version
+              cp -r $branch/$version/* out/$branch/$version/
+
+              if [ -d "out/$branch/$version/mmcpack" ]; then
+                rm -rf out/$branch/$version/mmcpack
+                (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/modpack.zip .)
+                echo "-> modpack.zip has been created in out/$branch/$version."
+              else
+                echo "-> Warning: no mmcpack folder found in out/$branch/$version."
+              fi
+            else
+              echo "Info: Folder $version has no $branch. Exclude."
+            fi
+          }
+
+          build_pack main 26.2
+          build_pack main 26.1.2
+          build_pack dev 26.2
+          build_pack dev 26.1.2
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "out"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
