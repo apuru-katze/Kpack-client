@@ -41,29 +41,28 @@ jobs:
       # workflow steps
       - name: Prepare output folder
         run: |
-
           mkdir -p out
-          echo "<h1>Blank Repository</h1><p>Status: 200 OK</p>" > out/index.html
+          echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
 
           build_pack() {
             local branch=$1
             local version=$2
             
             if [ -d "$branch/$version" ]; then
-              echo "deploy $branch version $version..."
+              echo "Memproses branch $branch versi $version..."
               
               mkdir -p out/$branch/$version
               cp -r $branch/$version/* out/$branch/$version/
-
+              
               if [ -d "out/$branch/$version/mmcpack" ]; then
-                rm -rf out/$branch/$version/mmcpack
+                # BAGIAN YANG DIUBAH: Perintah 'rm -rf' dihapus agar folder mmcpack tidak hilang
                 (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/modpack.zip .)
-                echo "-> modpack.zip has been created in out/$branch/$version."
+                echo "-> modpack.zip berhasil dibuat dan folder mmcpack tetap dipertahankan."
               else
-                echo "-> Warning: no mmcpack folder found in out/$branch/$version."
+                echo "-> Peringatan: Folder mmcpack tidak ditemukan di $branch/$version. Zip diabaikan."
               fi
             else
-              echo "Info: Folder $version has no $branch. Exclude."
+              echo "Info: Folder $version tidak ada di branch $branch. Dilewati."
             fi
           }
 
