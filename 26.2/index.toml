@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mmcpack/instance.cfg"
-hash = "2bae230dab383363ef5e870c4d31ad8167801e37ad6e96bb390a355a73ea71be"
+hash = "B414A16143246470DF1D2DEB2B64A2CE71EC9438786675A2049D243C1FF94013"
 
 [[files]]
 file = "mmcpack/minecraft/muara_smp.qoi"
@@ -10,7 +10,7 @@ hash = "38e9862cc6d1c308d7692e6365d9133199e078ce7ad78563e92d3db8433f5610"
 
 [[files]]
 file = "mmcpack/minecraft/unsup.ini"
-hash = "243a413b1b19d4c18f940c3657454209ee70d009d9aba27e1ec96fa4cd6d60e2"
+hash = "0d908cf26e52ec64b1d4a22dfa014f0c30b18e5bf142d8ec48ad408394038efa"
 
 [[files]]
 file = "mmcpack/mmc-pack.json"
