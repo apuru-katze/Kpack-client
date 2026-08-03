@@ -1,0 +1,60 @@
+name: Deploy packwiz pack to GitHub Pages
+
+on:
+  push:
+    branches: ["dev", "main"]
+    paths: ["26.2/**", "26.1.2/**"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current branch
+        uses: actions/checkout@v7
+
+      - name: Prepare output folder
+        run: |
+
+          mkdir -p out/26.2 out/26.1.2
+
+          # version 26.2
+          cp -r 26.2/* out/26.2/
+          rm -rf out/26.2/mmcpack
+          (
+            cd 26.2/mmcpack
+            zip -r ../../out/26.2/modpack.zip .
+          )
+
+          # version 26.1.2
+          cp -r 26.1.2/* out/26.1.2/
+          rm -rf out/26.1.2/mmcpack
+          (
+            cd 26.1.2/mmcpack
+            zip -r ../../out/26.1.2/modpack.zip .
+          )
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "out"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
