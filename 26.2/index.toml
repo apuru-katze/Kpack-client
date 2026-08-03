@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mmcpack/instance.cfg"
-hash = "B414A16143246470DF1D2DEB2B64A2CE71EC9438786675A2049D243C1FF94013"
+hash = "b414a16143246470df1d2deb2b64a2ce71ec9438786675a2049d243c1ff94013"
 
 [[files]]
 file = "mmcpack/minecraft/muara_smp.qoi"
