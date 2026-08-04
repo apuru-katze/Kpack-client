@@ -1,0 +1,13 @@
+name = "Explosive Enhancement"
+filename = "explosive-enhancement-1.4.2-26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18214af634d37a211c5dd1c2d2136ee9cd2a7df7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8433860
+project-id = 1318792

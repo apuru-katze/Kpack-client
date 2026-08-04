@@ -1,0 +1,13 @@
+name = "Glowing"
+filename = "Glowing-OF_v0.5.0-mc1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2af5a06ae51c40d4842e318c4b201807428b425f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7194678
+project-id = 813307

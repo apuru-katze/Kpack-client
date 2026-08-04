@@ -1,0 +1,13 @@
+name = "Highlight"
+filename = "hightlight-26.2-4.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e6f7d7b1731a55522cdad925af505c489b02f83"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8471448
+project-id = 667245

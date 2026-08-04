@@ -1,0 +1,24 @@
+{
+  "devMode": false,
+  "showActionBar": false,
+  "hideIncompatible": false,
+  "sort": "VANILLA",
+  "resourcepacks": {
+    "applyOnClose": true,
+    "replaceOriginal": true,
+    "hideIncompatibleWarnings": true,
+    "additionalFolders": [],
+    "rememberLastViewedProfile": true,
+    "lastViewedProfile": "default",
+    "profileOrder": [
+      "default"
+    ]
+  },
+  "datapacks": {
+    "replaceOriginal": true,
+    "hideIncompatibleWarnings": true,
+    "additionalFolders": [],
+    "rememberLastViewedProfile": false,
+    "profileOrder": []
+  }
+}

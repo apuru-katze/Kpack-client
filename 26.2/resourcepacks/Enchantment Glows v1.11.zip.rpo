@@ -1,0 +1,27 @@
+{
+    outlines: {
+        firstPerson: "extraThin",
+        thirdPerson: "extraThin",
+        gui: "off",
+        ground: "medium",
+        fixed: "medium"
+    },
+    appearance: {
+        vibrantTextures: true,
+        glowColor: "purple",
+        shieldStyle: "model",
+        maceStyle: "model",
+        totemStyle: "model",
+        popTotem: "extraThin"
+    },
+    extraSettings: {
+        customSounds: {
+            generalVolume: 50.0,
+            swordSounds: true,
+            tridentSound: false,
+            maceSound: false
+        },
+        glowParticles: true,
+        lowerShield: false
+    }
+}

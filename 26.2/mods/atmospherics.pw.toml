@@ -1,0 +1,13 @@
+name = "ATMOSPHERICS"
+filename = "atmospherics-2.6.6-mc-26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4289a197d70c7aaa21c2754d2eedb142a288374a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8472671
+project-id = 1493725

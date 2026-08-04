@@ -1,0 +1,13 @@
+name = "ProgressPeek"
+filename = "progresspeek-1.0.2+26.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76f429a07c3f86cf6c014546b6ce2cd3292c5c44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8263298
+project-id = 1554328

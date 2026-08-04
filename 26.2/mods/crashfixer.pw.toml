@@ -1,0 +1,13 @@
+name = "CrashFixer"
+filename = "crashfixer-3.1.0+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hNWBMF1B/versions/MfBG9apr/crashfixer-3.1.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "eacdd269af0c5933fbc5d60486fd537060dbd09f6681946e449828fd33a7f99ecf52fb4dd926c8cfb4525b8a398810d086abae377da32d1660bd1a8d5d423214"
+
+[update]
+[update.modrinth]
+mod-id = "hNWBMF1B"
+version = "MfBG9apr"

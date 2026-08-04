@@ -1,0 +1,13 @@
+name = "A Good Place"
+filename = "a_good_place-fabric-26.2-1.3.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfce08b77a155e9334a4b9adb37f5e389150f365"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8452662
+project-id = 1020455

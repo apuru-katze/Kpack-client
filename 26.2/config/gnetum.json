@@ -1,0 +1,179 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "fastFboBlit": {
+    "value": "ON"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 25,
+  "screenMaxFps": 15,
+  "map": {
+    "hand": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "misc_overlays": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "xaerohud:hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "atmospherics:debug_biome_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "spectator_menu": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "armor_bar": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "health_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "food_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "air_bar": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "mount_health": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "info_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "experience_level": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "held_item_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "spectator_tooltip": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "mob_effects": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "boss_bar": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "sleep": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "demo_timer": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "scoreboard": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "title_and_subtitle": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "chat": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "player_list": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "subtitles": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "architectury:render_hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "creativecore:gui": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "jade:main": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "wakes:atlas_debug": {
+      "enabled": {
+        "value": "ON"
+      }
+    },
+    "_unknown_": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    }
+  }
+}

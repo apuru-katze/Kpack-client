@@ -1,0 +1,6 @@
+{
+  "quality": "FANCY",
+  "animations": true,
+  "opaque_faces": false,
+  "cullface_method": "NON_AIR"
+}

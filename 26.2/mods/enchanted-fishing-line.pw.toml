@@ -1,0 +1,13 @@
+name = "Enchanted Fishing Line"
+filename = "enchanted_fishing_line-1.0.0-fabric-26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea168292e58fdc5fdaf9f3e80f9893f0e8c3e4bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8473048
+project-id = 1597536

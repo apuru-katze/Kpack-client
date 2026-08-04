@@ -1,0 +1,13 @@
+name = "ResourcePackCached"
+filename = "rpc-1.2.7+26.1-26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83d1c3896d7bb50654b77229f0a95edc07fc9194"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8450504
+project-id = 1125284

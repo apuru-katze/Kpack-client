@@ -1,0 +1,13 @@
+name = "Diverse Menu Music"
+filename = "Diverse Menu Music.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UjmnOo0O/versions/MxRRsB9U/Diverse%20Menu%20Music.zip"
+hash-format = "sha512"
+hash = "d3ec684643228fe446605456c17fe26dc7673df1f324288f9ab017192598897c0421bdced801b64651384cccc66d8a51fe41a8c49f46fbf1a3476cf6b1de1cec"
+
+[update]
+[update.modrinth]
+mod-id = "UjmnOo0O"
+version = "MxRRsB9U"

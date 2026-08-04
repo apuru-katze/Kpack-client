@@ -1,0 +1,13 @@
+name = "CameraOverhaul"
+filename = "CameraOverhaul-v2.1.1-fabric+mc[26.1-plus]-downgrade.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2179686a6892e6f5307ec2a9f6cc1189b61528e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8142511
+project-id = 423602

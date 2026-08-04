@@ -1,0 +1,13 @@
+name = "Item Descriptions"
+filename = "item_descriptions-2.8.2+26.2-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UaizcMKP/versions/Sqif41cl/item_descriptions-2.8.2%2B26.2-fabric.jar"
+hash-format = "sha512"
+hash = "d9bbb644a3e8a883146ace5aa6ffb21ec028f944d2d674ed3dff162b876c9ce12dce09568599cce541b99d2d6e32e6ba764ba913bbe4e1a14d373ae209387aa9"
+
+[update]
+[update.modrinth]
+mod-id = "UaizcMKP"
+version = "Sqif41cl"

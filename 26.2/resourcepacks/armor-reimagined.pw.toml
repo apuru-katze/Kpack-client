@@ -1,0 +1,13 @@
+name = "Armor Reimagined"
+filename = "§bArmor§8-§bReimagined§0_§8[v1.1]§0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aeb5e7f1b92046b6e1019ca244e800ab37d32d09"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7149539
+project-id = 1367598

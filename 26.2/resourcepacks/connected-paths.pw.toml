@@ -1,0 +1,13 @@
+name = "Connected Paths"
+filename = "Connected-Paths 26.1 – 26.1.2 v2.1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c1e9c224eed52593c338438963e18341e362dbb4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8012604
+project-id = 1376749

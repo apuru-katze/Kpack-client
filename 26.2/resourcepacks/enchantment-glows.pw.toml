@@ -1,0 +1,13 @@
+name = "Enchantment Glows"
+filename = "Enchantment Glows v1.11.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d39df0ecc5d44152956bdd0c6d954f07e0b752c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8310845
+project-id = 1277995

@@ -1,0 +1,13 @@
+name = "LibJF"
+filename = "libjf-26.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0141f9b79050011fa6a26d751e86057e0c3064e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8513494
+project-id = 482600

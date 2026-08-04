@@ -1,0 +1,13 @@
+name = "Boat Item View"
+filename = "boatiview-fabric-0.0.9-26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a3c02e882cbcea81d22d18ddb41da9048ec29ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8277793
+project-id = 482160
