@@ -1,14 +1,17 @@
-# Kucing Client
-Kucing Client
+## Kucay Client
 
-Main Branch
+To import modpack, use link bellow and paste at import section. You can download my modpack by clicking link bellow.
 
-[https://apuru-katze.github.io/Kpack-client/main/26.2/pack.toml](https://apuru-katze.github.io/Kpack-client/main/26.2/pack.toml)
+## Deployment Modpack
 
-[https://apuru-katze.github.io/Kpack-client/main/26.1.2/pack.toml](https://apuru-katze.github.io/Kpack-client/main/26.1.2/pack.toml)
+| Packs    | Link                                                               |
+| :------- | :----------------------------------------------------------------- |
+| `26.2`   | `https://apuru-katze.github.io/Kpack-client/main/26.2/modpack.zip` |
+| `26.1.2` | `https://apuru-katze.github.io/Kpack-client/main/26.2/modpack.zip` |
 
-Dev Branch
+## Development Modpack
 
-[https://apuru-katze.github.io/Kpack-client/dev/26.2/pack.toml](https://apuru-katze.github.io/Kpack-client/dev/26.2/pack.toml)
-
-[https://apuru-katze.github.io/Kpack-client/dev/26.1.2/pack.toml](https://apuru-katze.github.io/Kpack-client/dev/26.1,2/pack.toml)
+| Packs    | Link                                                              |
+| :------- | :---------------------------------------------------------------- |
+| `26.2`   | `https://apuru-katze.github.io/Kpack-client/dev/26.2/modpack.zip` |
+| `26.1.2` | `https://apuru-katze.github.io/Kpack-client/dev/26.2/modpack.zip` |
