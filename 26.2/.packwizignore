@@ -2,8 +2,11 @@
 
 # See https://git-scm.com/docs/gitignore
 
+# file
+
 /\*.zip
 unsup.toml
-client-files/
-server-files/
+
+# folder
+
 mmcpack/

@@ -1,0 +1,162 @@
+# declare group 
+[flavor_groups.kucay]
+name = "MuaraSMP KucayPack Rendering Choices"
+description = "from the ashes became a muara"
+side = "both"
+[[flavor_groups.kucay.choices]]
+id = "kucay_base"
+name = "Base Version"
+description = "Versi basic cuman mod yang penting aja, cocok buat yang mau main di server SMP"
+[[flavor_groups.kucay.choices]]
+id = "kucay_fancy"
+name = "Fancy Version"
+description = "Versi fancy dengan lebih banyak fitur dan visual yang menarik"
+
+[flavor_groups.addons]
+name = "MuaraSMP KucayPack Rendering Choices"
+description = "from the ashes became a muara"
+side = "client"
+[[flavor_groups.addons.choices]]
+id = "shader"
+name = "Iris Shader"
+description = "Shader dan optimasinya"
+[[flavor_groups.addons.choices]]
+id = "clienttweak"
+name = "Client Tweak"
+description = "mod Tweak client"
+
+# metafile for fancy
+[metafile.3dskinlayers]
+flavors = "kucay_fancy"
+[metafile.a-good-place]
+flavors = "kucay_fancy"
+[metafile.ambientsounds]
+flavors = "kucay_fancy"
+[metafile.animatica-refabricated]
+flavors = "kucay_fancy"
+[metafile.atmospherics]
+flavors = "kucay_fancy"
+[metafile.better-biome-blend]
+flavors = "kucay_fancy"
+[metafile.better-mount-hud]
+flavors = "kucay_fancy"
+[metafile.blocky-bubbles]
+flavors = "kucay_fancy"
+[metafile.blur-fabric]
+flavors = "kucay_fancy"
+[metafile.cameraoverhaul]
+flavors = "kucay_fancy"
+[metafile.chatpatches]
+flavors = "kucay_fancy"
+[metafile.cherished-worlds]
+flavors = "kucay_fancy"
+[metafile.cool-rain]
+flavors = "kucay_fancy"
+[metafile.creativecore]
+flavors = "kucay_fancy"
+[metafile.detail-armor-bar-reconstructed]
+flavors = "kucay_fancy"
+[metafile.eclipseui]
+flavors = "kucay_fancy"
+[metafile.enhancedvisuals]
+flavors = "kucay_fancy"
+[metafile.entity-model-features]
+flavors = "kucay_fancy"
+[metafile.entity-texture-features-fabric]
+flavors = "kucay_fancy"
+[metafile.entityculling]
+flavors = "kucay_fancy"
+[metafile.euphoria-patches]
+flavors = "kucay_fancy"
+[metafile.explosive-enhancement]
+flavors = "kucay_fancy"
+[metafile.head-in-the-clouds]
+flavors = "kucay_fancy"
+[metafile.highlight]
+flavors = "kucay_fancy"
+[metafile.iceberg-fabric]
+flavors = "kucay_fancy"
+[metafile.mossylib]
+flavors = "kucay_fancy"
+[metafile.mru]
+flavors = "kucay_fancy"
+[metafile.optigui]
+flavors = "kucay_fancy"
+[metafile.particle-effects]
+flavors = "kucay_fancy"
+[metafile.particular-reforged]
+flavors = "kucay_fancy"
+[metafile.polytone]
+flavors = "kucay_fancy"
+[metafile.presence-footsteps]
+flavors = "kucay_fancy"
+[metafile.prism-fabric]
+flavors = "kucay_fancy"
+[metafile.punchy-fpa]
+flavors = "kucay_fancy"
+[metafile.punchy]
+flavors = "kucay_fancy"
+[metafile.puzzle]
+flavors = "kucay_fancy"
+[metafile.puzzles-lib]
+flavors = "kucay_fancy"
+[metafile.respackopts]
+flavors = "kucay_fancy"
+[metafile.scoreboard-overhaul]
+flavors = "kucay_fancy"
+[metafile.skyboxify]
+flavors = "kucay_fancy"
+[metafile.smooth-gui]
+flavors = "kucay_fancy"
+[metafile.smooth-skies]
+flavors = "kucay_fancy"
+[metafile.sound]
+flavors = "kucay_fancy"
+[metafile.subtle-effects]
+flavors = "kucay_fancy"
+[metafile.unilib]
+flavors = "kucay_fancy"
+[metafile.wakes]
+flavors = "kucay_fancy"
+
+# Client Tweak
+[metafile.client-tweaks]
+flavors = "clienttweak"
+[metafile.inventory-hud-forge]
+flavors = "clienttweak"
+[metafile.inventory-profiles-next]
+flavors = "clienttweak"
+[metafile.item-descriptions]
+flavors = "clienttweak"
+[metafile.jade]
+flavors = "clienttweak"
+[metafile.jei]
+flavors = "clienttweak"
+[metafile.libipn]
+flavors = "clienttweak"
+[metafile.malilib]
+flavors = "clienttweak"
+[metafile.music-notification]
+flavors = "clienttweak"
+[metafile.ok-zoomer]
+flavors = "clienttweak"
+[metafile.stendhal]
+flavors = "clienttweak"
+[metafile.tweakeroo]
+flavors = "clienttweak"
+[metafile.progresspeek]
+flavors = "clienttweak"
+[metafile.packed-packs]
+flavors = "clienttweak"
+[metafile.xaeros-minimap]
+flavors = "clienttweak"
+[metafile.xaeros-world-map]
+flavors = "clienttweak"
+
+# Shader
+[metafile.faster-iris-shadow-mapper]
+flavors = "shader"
+[metafile.iris]
+flavors = "shader"
+[metafile.irisshaders]
+flavors = "shader"
