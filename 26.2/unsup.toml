@@ -12,28 +12,28 @@ id = "kucay_fancy"
 name = "Fancy Version"
 description = "Versi fancy dengan lebih banyak fitur dan visual yang menarik"
 
-[flavor_groups.addons]
+[flavor_groups.shader]
 name = "Shader Choices"
 description = "Only Shader dan optimasinya"
 side = "client"
-[[flavor_groups.addons.choices]]
+[[flavor_groups.shader.choices]]
 id = "shader"
 name = "Iris Shader"
 description = "Shader dan optimasinya"
-[[flavor_groups.addons.choices]]
+[[flavor_groups.shader.choices]]
 id = "noshader"
 name = "NO Shader"
 description = "Tanpa Shader"
 
-[flavor_groups.addons]
+[flavor_groups.tweaks]
 name = "Client Tweak Choices"
 description = "Tweak beberapa mekanik dan fitur di sisi client"
 side = "client"
-[[flavor_groups.addons.choices]]
+[[flavor_groups.tweaks.choices]]
 id = "clienttweak"
 name = "Client Tweak"
 description = "mod Tweak client"
-[[flavor_groups.addons.choices]]
+[[flavor_groups.tweaks.choices]]
 id = "noclienttweak"
 name = "NO Client Tweak"
 description = "Tanpa mod Tweak client"
