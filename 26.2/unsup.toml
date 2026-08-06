@@ -1,6 +1,6 @@
 # declare group 
 [flavor_groups.kucay]
-name = "MuaraSMP KucayPack Rendering Choices"
+name = "MuaraSMP KucayPack"
 description = "from the ashes became a muara"
 side = "both"
 [[flavor_groups.kucay.choices]]
@@ -13,17 +13,30 @@ name = "Fancy Version"
 description = "Versi fancy dengan lebih banyak fitur dan visual yang menarik"
 
 [flavor_groups.addons]
-name = "MuaraSMP KucayPack Rendering Choices"
-description = "from the ashes became a muara"
+name = "Shader Choices"
+description = "Only Shader dan optimasinya"
 side = "client"
 [[flavor_groups.addons.choices]]
 id = "shader"
 name = "Iris Shader"
 description = "Shader dan optimasinya"
 [[flavor_groups.addons.choices]]
+id = "noshader"
+name = "NO Shader"
+description = "Tanpa Shader"
+
+[flavor_groups.addons]
+name = "Client Tweak Choices"
+description = "Tweak beberapa mekanik dan fitur di sisi client"
+side = "client"
+[[flavor_groups.addons.choices]]
 id = "clienttweak"
 name = "Client Tweak"
 description = "mod Tweak client"
+[[flavor_groups.addons.choices]]
+id = "noclienttweak"
+name = "NO Client Tweak"
+description = "Tanpa mod Tweak client"
 
 # metafile for fancy
 [metafile.3dskinlayers]
