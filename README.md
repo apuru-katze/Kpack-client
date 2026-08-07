@@ -15,3 +15,11 @@ To import modpack, use link bellow and paste at import section. You can download
 | :------- | :------------------------------------------------------------------ |
 | `26.2`   | `https://apuru-katze.github.io/Kpack-client/dev/26.2/modpack.zip`   |
 | `26.1.2` | `https://apuru-katze.github.io/Kpack-client/dev/26.1.2/modpack.zip` |
+
+## Friend Modpack
+
+Check this too
+
+| Packs                  | Link                                          |
+| :--------------------- | :-------------------------------------------- |
+| `SekaiModded Survival` | `https://github.com/lutfilahdz/sekai-modpack` |

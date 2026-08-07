@@ -5,6 +5,7 @@
 # file
 
 /\*.zip
+/\*.mrpack
 unsup.toml
 list.txt
 
