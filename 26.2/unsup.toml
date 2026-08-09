@@ -186,18 +186,6 @@ flavors = "shader"
 # Reimagine
 [metafile.reimagined-intro]
 flavors = "reimagine_on"
-[metafile.fancymenu]
-flavors = "reimagine_on"
-[metafile.drippy-loading-screen]
-flavors = "reimagine_on"
-[metafile.konkrete]
-flavors = "reimagine_on"
-[metafile.melody]
-flavors = "reimagine_on"
-[metafile.watermedia]
-flavors = "reimagine_on"
-[metafile.watermedia-binaries]
-flavors = "reimagine_on"
 
 # Voxy
 [metafile.voxy]

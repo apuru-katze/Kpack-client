@@ -958,11 +958,6 @@ hash = "779e9145118d5f4158e5b50db9b2858aef548af45e6f37ada929a8e25458cafa"
 metafile = true
 
 [[files]]
-file = "mods/drippy-loading-screen.pw.toml"
-hash = "ebf5b807e471be1e14486cebd112d1e0e91aa5e144a970f0cffbac6823980a7d"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "cde01216b5130626609411fcd3ee5f8f880222c310bb08ce20fc26586a57e393"
 metafile = true
@@ -1020,11 +1015,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
-metafile = true
-
-[[files]]
-file = "mods/fancymenu.pw.toml"
-hash = "4f7f5ad29765ca7458319bf62a3eef96c9077e07fe60d02d3aa9bb563b1cf26b"
 metafile = true
 
 [[files]]
@@ -1148,11 +1138,6 @@ hash = "b39344c133e5aa6d28ad00c7dcb4e667c12072b706bcc6b407e9dde91a9058c1"
 metafile = true
 
 [[files]]
-file = "mods/konkrete.pw.toml"
-hash = "d65b395716652327480df4174a2457d6e49fe8c5fa4a47830633458e38e43205"
-metafile = true
-
-[[files]]
 file = "mods/lambdabettergrass.pw.toml"
 hash = "f31e4cbf6c48a9023f43c93b94485dacf59b2dc3430dca08b1eb918dba3a2d16"
 metafile = true
@@ -1195,11 +1180,6 @@ metafile = true
 [[files]]
 file = "mods/mclo-gs.pw.toml"
 hash = "20ddbce58fc2aeca70c4c5cb51309e91c40573459085f916747bdecbdcf8ca3b"
-metafile = true
-
-[[files]]
-file = "mods/melody.pw.toml"
-hash = "2693ec9e793b723ea1dae1912831652dbe5e5caeb3e4adb13496b98d38de1fa3"
 metafile = true
 
 [[files]]
@@ -1440,16 +1420,6 @@ metafile = true
 [[files]]
 file = "mods/wakes.pw.toml"
 hash = "5a066372a96adf0eb685805c2b3f65c979ed7c6ca7a905b5509a0e0cccb69aa0"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-binaries.pw.toml"
-hash = "cae7e8292ef90ab14e32cf5970e8467116a6e01df5a79c8a33968d45556eede8"
-metafile = true
-
-[[files]]
-file = "mods/watermedia.pw.toml"
-hash = "b77a560d6c4a3f4558ee0b977463de1283b6b1c39fd565883f9b35df2453cd3d"
 metafile = true
 
 [[files]]
