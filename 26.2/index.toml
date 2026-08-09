@@ -1048,6 +1048,11 @@ hash = "71f5b30f3673f2ddbe32d3f174ecd3538e28238df174eb05b798fde318eb0ecc"
 metafile = true
 
 [[files]]
+file = "mods/flashback.pw.toml"
+hash = "859b59f13ce0b882c061eb52d7b2507e5b2cf5c9e3f27ff92ffce30a51656ae6"
+metafile = true
+
+[[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
 hash = "7a47ade552655bfe2281e6d3d7f61e99db03eab44c1ae065eff0644f3f15d0d4"
 metafile = true
@@ -1308,6 +1313,11 @@ hash = "feeff4192a62d121b32142f0a4ab2f8ec1b7a24fe143af0574d35b0a2de34eae"
 metafile = true
 
 [[files]]
+file = "mods/reimagined-intro.pw.toml"
+hash = "325d3dfe16a49ca973da1b5ee5cc2cc7afc5cf37b3158bf59718e0d6826f5152"
+metafile = true
+
+[[files]]
 file = "mods/resourcepackcached.pw.toml"
 hash = "1dc3e9f7ad5b273c92bedb8ea6e093e2ccae14732ad79a0455bf140765f7f4d0"
 metafile = true
@@ -1400,6 +1410,11 @@ metafile = true
 [[files]]
 file = "mods/unilib.pw.toml"
 hash = "5ace94c6055ffc5c482168f960cd480c6c12c6b101258fc0652600ad465ce330"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "6e7118b85f597deab7cbc4a1d6caf50aee9acda40ebd96711724d4d9514b2839"
 metafile = true
 
 [[files]]

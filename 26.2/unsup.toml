@@ -24,19 +24,30 @@ description = "Tanpa Shader"
 id = "shader"
 name = "Iris Shader"
 description = "Shader dan optimasinya"
-
-[flavor_groups.tweaks]
-name = "Client Tweak Choices"
-description = "Tweak beberapa mekanik dan fitur di sisi client"
+# =---------------------------------------=
+[flavor_groups.ctweak]
+name = "Tweak Client"
 side = "client"
-[[flavor_groups.tweaks.choices]]
-id = "noclienttweak"
-name = "NO Client Tweak"
-description = "Tanpa mod Tweak client"
-[[flavor_groups.tweaks.choices]]
-id = "clienttweak"
-name = "Client Tweak"
-description = "mod Tweak client"
+description = "Tambahin HUD, Inventory sort, Zoom, Resourcepack Management, dan Map"
+choices = ["clienttweak_off", "clienttweak_on"]
+
+[flavor_groups.reimagine]
+name = "Intro Reimagine"
+side = "client"
+description = "Reimagine Intro, doang"
+choices = ["reimagine_off", "reimagine_on"]
+
+[flavor_groups.voxy]
+name = "Voxy"
+side = "client"
+description = "Nambahkan Render Distance dari server"
+choices = ["voxy_off", "voxy_on"]
+
+[flavor_groups.flashback]
+name = "Flashback"
+side = "client"
+description = "Flashback record, sudah support record in-game voice"
+choices = ["flashback_off", "flashback_on"]
 
 # metafile for fancy
 [metafile.3dskinlayers]
@@ -132,37 +143,37 @@ flavors = "kucay_fancy"
 
 # Client Tweak
 [metafile.client-tweaks]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.inventory-hud-forge]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.inventory-profiles-next]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.item-descriptions]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.jade]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.jei]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.libipn]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.malilib]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.music-notification]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.ok-zoomer]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.stendhal]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.tweakeroo]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.progresspeek]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.packed-packs]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.xaeros-minimap]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 [metafile.xaeros-world-map]
-flavors = "clienttweak"
+flavors = "clienttweak_on"
 
 # Shader
 [metafile.faster-iris-shadow-mapper]
@@ -171,3 +182,15 @@ flavors = "shader"
 flavors = "shader"
 [metafile.irisshaders]
 flavors = "shader"
+
+# Reimagine
+[metafile.reimagined-intro]
+flavors = "reimagine_on"
+
+# Voxy
+[metafile.voxy]
+flavors = "voxy_on"
+
+# Voxy
+[metafile.flashback]
+flavors = "flashback_on"
