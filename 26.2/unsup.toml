@@ -31,12 +31,6 @@ side = "client"
 description = "Tambahin HUD, Inventory sort, Zoom, Resourcepack Management, dan Map"
 choices = ["clienttweak_off", "clienttweak_on"]
 
-[flavor_groups.reimagine]
-name = "Intro Reimagine"
-side = "client"
-description = "Reimagine Intro, doang"
-choices = ["reimagine_off", "reimagine_on"]
-
 [flavor_groups.voxy]
 name = "Voxy"
 side = "client"
@@ -182,10 +176,6 @@ flavors = "shader"
 flavors = "shader"
 [metafile.irisshaders]
 flavors = "shader"
-
-# Reimagine
-[metafile.reimagined-intro]
-flavors = "reimagine_on"
 
 # Voxy
 [metafile.voxy]

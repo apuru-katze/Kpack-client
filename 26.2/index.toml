@@ -1313,11 +1313,6 @@ hash = "feeff4192a62d121b32142f0a4ab2f8ec1b7a24fe143af0574d35b0a2de34eae"
 metafile = true
 
 [[files]]
-file = "mods/reimagined-intro.pw.toml"
-hash = "325d3dfe16a49ca973da1b5ee5cc2cc7afc5cf37b3158bf59718e0d6826f5152"
-metafile = true
-
-[[files]]
 file = "mods/resourcepackcached.pw.toml"
 hash = "1dc3e9f7ad5b273c92bedb8ea6e093e2ccae14732ad79a0455bf140765f7f4d0"
 metafile = true
