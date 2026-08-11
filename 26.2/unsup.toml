@@ -52,7 +52,7 @@ choices = ["voxy_off", "voxy_on"]
 [flavor_groups.experimental]
 name = "Experimental Optimise"
 side = "client"
-description = "Nambahkan Render Distance dari server"
+description = "Experimental optimise"
 choices = ["experimental_off", "experimental_on"]
 
 # metafile for fancy

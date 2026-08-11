@@ -1084,7 +1084,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "146ee7a767ec3265ad9ba57ff442894c48cf825d491a57d986a0cb9583fbb015"
+hash = "0ec5b55e63b828d079d1d844b228813e32153008a6ea0a543e3285936ade1e47"
 metafile = true
 
 [[files]]
@@ -1149,7 +1149,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b39344c133e5aa6d28ad00c7dcb4e667c12072b706bcc6b407e9dde91a9058c1"
+hash = "c716761e74c2996df09b2b245779eede371458f0ec6e5b590825feaeb3091507"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-serverless-recipes.pw.toml"
+hash = "c7732ec557ada4cb56ecc59b077bd3a90b361c4aa4255ad52f8aa99d47cc07ec"
 metafile = true
 
 [[files]]
