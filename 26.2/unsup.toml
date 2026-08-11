@@ -25,11 +25,23 @@ id = "shader"
 name = "Iris Shader"
 description = "Shader dan optimasinya"
 # =---------------------------------------=
-[flavor_groups.ctweak]
+[flavor_groups.clienttweak]
 name = "Tweak Client"
 side = "client"
 description = "Tambahin HUD, Inventory sort, Zoom, Resourcepack Management, dan Map"
 choices = ["clienttweak_off", "clienttweak_on"]
+
+[flavor_groups.flashback]
+name = "Flashback"
+side = "client"
+description = "Flashback record, sudah support record in-game voice"
+choices = ["flashback_off", "flashback_on"]
+
+[flavor_groups.vivecraft]
+name = "Vivecraft"
+side = "client"
+description = "VR client support"
+choices = ["vivecraft_off", "vivecraft_on"]
 
 [flavor_groups.voxy]
 name = "Voxy"
@@ -37,11 +49,11 @@ side = "client"
 description = "Nambahkan Render Distance dari server"
 choices = ["voxy_off", "voxy_on"]
 
-[flavor_groups.flashback]
-name = "Flashback"
+[flavor_groups.experimental]
+name = "Experimental Optimise"
 side = "client"
-description = "Flashback record, sudah support record in-game voice"
-choices = ["flashback_off", "flashback_on"]
+description = "Nambahkan Render Distance dari server"
+choices = ["experimental_off", "experimental_on"]
 
 # metafile for fancy
 [metafile.3dskinlayers]
@@ -138,6 +150,8 @@ flavors = "kucay_fancy"
 # Client Tweak
 [metafile.client-tweaks]
 flavors = "clienttweak_on"
+[metafile.calcmod]
+flavors = "clienttweak_on"
 [metafile.inventory-hud-forge]
 flavors = "clienttweak_on"
 [metafile.inventory-profiles-next]
@@ -155,6 +169,8 @@ flavors = "clienttweak_on"
 [metafile.music-notification]
 flavors = "clienttweak_on"
 [metafile.ok-zoomer]
+flavors = "clienttweak_on"
+[metafile.ayame-paperdoll]
 flavors = "clienttweak_on"
 [metafile.stendhal]
 flavors = "clienttweak_on"
@@ -184,3 +200,13 @@ flavors = "voxy_on"
 # Voxy
 [metafile.flashback]
 flavors = "flashback_on"
+
+# Vivecraft
+[metafile.vivecraft]
+flavors = "vivecraft_on"
+
+# Experimental
+[metafile.eslium]
+flavors = "experimental_on"
+[metafile.put-a-plug-in-it!]
+flavors = "experimental_on"

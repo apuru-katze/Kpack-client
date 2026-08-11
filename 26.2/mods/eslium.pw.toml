@@ -1,0 +1,13 @@
+name = "Eslium"
+filename = "eslium-4.4.4-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zaVwh7an/versions/2EeGjtQG/eslium-4.4.4-beta.jar"
+hash-format = "sha512"
+hash = "03d7adea45a2d8bb5602324a95dc64a6cba6238d29618941b5916d33af18ddf8a623ff56b5e2304289dcc010d5d749b3e1f14236a607311f00b3bfd0bcd15242"
+
+[update]
+[update.modrinth]
+mod-id = "zaVwh7an"
+version = "2EeGjtQG"

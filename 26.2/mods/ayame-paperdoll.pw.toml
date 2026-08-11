@@ -1,0 +1,13 @@
+name = "Ayame PaperDoll"
+filename = "ayame-paperdoll-fabric-4.4.4+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HdLPXCOD/versions/OabkMtxU/ayame-paperdoll-fabric-4.4.4%2B26.2.jar"
+hash-format = "sha512"
+hash = "3db852d0ac928ffc92202c545e128ba5aeb99607fe1731b76502350f75794fcccbed83abeb71f7d74b8cab5d0ac95df1c40c38b54a49beac5f0d8db99e3d0322"
+
+[update]
+[update.modrinth]
+mod-id = "HdLPXCOD"
+version = "OabkMtxU"

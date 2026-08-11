@@ -803,6 +803,11 @@ hash = "dc2cc025c528e0a98052e8b63755e0873e321c3bfc980b65075a134cf0fad067"
 metafile = true
 
 [[files]]
+file = "mods/ayame-paperdoll.pw.toml"
+hash = "74e43b41abe7d36c8c726f1890b02e188a28ac9b432bc06d08db66d15ca8770b"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "2bc927f68b44bfc2e1ed0f3b93c0510bfa76fea474976d10732db764d8b53b45"
 metafile = true
@@ -845,6 +850,11 @@ metafile = true
 [[files]]
 file = "mods/c2me.pw.toml"
 hash = "fcf8a80f920b64daeea44ceae36f719bd7110b11c4f65b02b2a6a32ce1faba24"
+metafile = true
+
+[[files]]
+file = "mods/calcmod.pw.toml"
+hash = "3a7997105396e8e8b46c7bd8f4cf75f74dd199c170a46d54ad602c414a3f948f"
 metafile = true
 
 [[files]]
@@ -990,6 +1000,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "db9b98917159922e4430a6411b0a173bd36d9362c6e2fb3ad75a51ed8da82fb2"
+metafile = true
+
+[[files]]
+file = "mods/eslium.pw.toml"
+hash = "a5bd68412d5d56addba7adbe0401642f296c208589ba6b979099ba19488f71e2"
 metafile = true
 
 [[files]]
@@ -1298,6 +1313,11 @@ hash = "76192a9e6a22f671f3c2016ccb597230031f5df0531e637c269b910897ffba86"
 metafile = true
 
 [[files]]
+file = "mods/put-a-plug-in-it!.pw.toml"
+hash = "c7f9795b0d0b18ab28a2d026da69029d63998914c8915ad98d227fdb9a3827d7"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "a7cd1212be3f56641e113dea5e8036a80f86d25cf43724f707eeb2e584e332f8"
 metafile = true
@@ -1405,6 +1425,11 @@ metafile = true
 [[files]]
 file = "mods/unilib.pw.toml"
 hash = "5ace94c6055ffc5c482168f960cd480c6c12c6b101258fc0652600ad465ce330"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "58cd41433448d7a9d2e54c374390602ddb2f1940588a2bbab271419d8b1491d1"
 metafile = true
 
 [[files]]
