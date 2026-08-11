@@ -1313,8 +1313,8 @@ hash = "76192a9e6a22f671f3c2016ccb597230031f5df0531e637c269b910897ffba86"
 metafile = true
 
 [[files]]
-file = "mods/put-a-plug-in-it!.pw.toml"
-hash = "c7f9795b0d0b18ab28a2d026da69029d63998914c8915ad98d227fdb9a3827d7"
+file = "mods/put-a-plug-in-it.pw.toml"
+hash = "5fb62069d0a0de9dcfef439b30f19dcd80e2798819606052bd8bcadbda6fca1d"
 metafile = true
 
 [[files]]

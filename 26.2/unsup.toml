@@ -208,5 +208,5 @@ flavors = "vivecraft_on"
 # Experimental
 [metafile.eslium]
 flavors = "experimental_on"
-[metafile.put-a-plug-in-it!]
+[metafile.put-a-plug-in-it]
 flavors = "experimental_on"

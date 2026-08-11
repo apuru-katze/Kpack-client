@@ -1,0 +1,13 @@
+name = "Put A Plug In it! (PAPI)"
+filename = "papi-fabric-26.2-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8358bf7d8b1811c5cdf6d3c513fe5229dea1ac5d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8618647
+project-id = 1461195
