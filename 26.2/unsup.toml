@@ -170,8 +170,6 @@ flavors = "clienttweak_on"
 flavors = "clienttweak_on"
 [metafile.libipn]
 flavors = "clienttweak_on"
-[metafile.malilib]
-flavors = "clienttweak_on"
 [metafile.music-notification]
 flavors = "clienttweak_on"
 [metafile.ok-zoomer]
