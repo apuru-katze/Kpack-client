@@ -768,11 +768,6 @@ hash = "d25f9eab86ee4caaba3b5e07f3b2730ceb242ea65d4f2081af844bf8347df344"
 metafile = true
 
 [[files]]
-file = "mods/amecs.pw.toml"
-hash = "b5ef2e51ab5b9d1ff80459b784d821ff3ef2bf43e7e2ed75042e4ec98184369b"
-metafile = true
-
-[[files]]
 file = "mods/animatica-refabricated.pw.toml"
 hash = "c0b0c3c490515b5a49008bdaa48c1b1ad841d77e6c93838883e27d265ef786e9"
 metafile = true
@@ -913,6 +908,11 @@ hash = "d08b95b11068dffdcc4390116f6a180266b7a3ce5afb9af0a3ed3a3adc31a432"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "2effcd5897e9e3708e4a0c79db418fba3cae0e19f602c5a2da9c7e3882d20dae"
+metafile = true
+
+[[files]]
 file = "mods/cool-rain.pw.toml"
 hash = "6d113f10c729bcc5763cab8cc58ca584e3093d05472141b6f60f27880b5d4252"
 metafile = true
@@ -980,6 +980,11 @@ metafile = true
 [[files]]
 file = "mods/enchanted-fishing-line.pw.toml"
 hash = "948c87be8e0454e86a75b85ec978bec7187bdc2b9fd4a9b23ab201b45aea07bb"
+metafile = true
+
+[[files]]
+file = "mods/enhancedkeybinds.pw.toml"
+hash = "f2f484272e5599e89e950e3adec0f17904bee25e9ba317ea2e98558a64bc7430"
 metafile = true
 
 [[files]]
@@ -1350,6 +1355,11 @@ metafile = true
 [[files]]
 file = "mods/scoreboard-overhaul.pw.toml"
 hash = "ea7a82f480c463be94b503b5042ef54ac6d2796939cf17681fd361997acb40bc"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "18d343982316153f5b40b9d2e0e6ac3884b873774eec756ff67e891a4d3c22b9"
 metafile = true
 
 [[files]]
