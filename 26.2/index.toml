@@ -1273,6 +1273,11 @@ hash = "232b3c9ff4194019ab3d0db534eef9cb7603d7cb9932d60f5d2128e951c880fc"
 metafile = true
 
 [[files]]
+file = "mods/patpat.pw.toml"
+hash = "c76ee40840dafed859a36b483d79721cc544cfc6fa2d705a3ffe49331d199cd4"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "b234ade7fd54bb9d99c27769cd1635b18835752676d0cdd0a29af2b4146251a8"
 metafile = true
@@ -1455,11 +1460,6 @@ metafile = true
 [[files]]
 file = "mods/yeetus-experimentus.pw.toml"
 hash = "4ea3d8c6cd6d1f7b8fc3a89f004f8118ed73e316cffbce1efc510d76989bd07c"
-metafile = true
-
-[[files]]
-file = "mods/yeetusexperimentus.pw.toml"
-hash = "1f5183eaf0d809778f32bb6162786ee1b53bbf453c85439cad736abe39dc54be"
 metafile = true
 
 [[files]]

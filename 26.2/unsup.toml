@@ -61,6 +61,12 @@ side = "client"
 description = "All in one tool, Gamma view, zoom, flex placement block."
 choices = ["tweakeroo_off", "tweakeroo_on"]
 
+[flavor_groups.patpat]
+name = "Pat Pat"
+side = "client"
+description = "PatpatPatpatPatpatPatpatPatpat"
+choices = ["patpat_off", "patpat_on"]
+
 # metafile for fancy
 [metafile.3dskinlayers]
 flavors = "kucay_fancy"
@@ -215,3 +221,6 @@ flavors = "tweakeroo_on"
 [metafile.tweakeroo]
 flavors = "tweakeroo_on"
 
+# Patpat
+[metafile.patpat]
+flavors = "patpat_on"
