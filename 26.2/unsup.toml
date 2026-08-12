@@ -188,11 +188,7 @@ flavors = "clienttweak_on"
 flavors = "clienttweak_on"
 
 # Shader
-[metafile.faster-iris-shadow-mapper]
-flavors = "shader"
 [metafile.iris]
-flavors = "shader"
-[metafile.irisshaders]
 flavors = "shader"
 
 # Voxy

@@ -1038,11 +1038,6 @@ hash = "257aa42bcf1241f04caa18d181ebf8f04d448ad3e3eecfff131db229a105a602"
 metafile = true
 
 [[files]]
-file = "mods/faster-iris-shadow-mapper.pw.toml"
-hash = "997b2db066ab7d2899071b5431d47cb5c01ab4ab77583954f6ddf67cef3a3674"
-metafile = true
-
-[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "c6e18d9bd4463df6d07eb672bdfbe1e194802d07de1fe2721c6dd1844000d107"
 metafile = true
@@ -1120,11 +1115,6 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "7262c5dea44f3ef66051c5300f498d03ad64f97cc5c920dd04ec8f0ba607bb92"
-metafile = true
-
-[[files]]
-file = "mods/irisshaders.pw.toml"
-hash = "cfe48d1f4d23aa434d3aa1d443f058ef4d5b213b39be32fe37613e02790482a6"
 metafile = true
 
 [[files]]
