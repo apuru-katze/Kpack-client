@@ -983,11 +983,6 @@ hash = "948c87be8e0454e86a75b85ec978bec7187bdc2b9fd4a9b23ab201b45aea07bb"
 metafile = true
 
 [[files]]
-file = "mods/enhancedkeybinds.pw.toml"
-hash = "f2f484272e5599e89e950e3adec0f17904bee25e9ba317ea2e98558a64bc7430"
-metafile = true
-
-[[files]]
 file = "mods/enhancedvisuals.pw.toml"
 hash = "aee61837dd669a3467579a1e80ebda46705753b0f132716f2c8875134c350a0b"
 metafile = true
