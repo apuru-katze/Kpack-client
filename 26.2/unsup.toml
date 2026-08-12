@@ -55,6 +55,12 @@ side = "client"
 description = "Experimental optimise"
 choices = ["experimental_off", "experimental_on"]
 
+[flavor_groups.tweakeroo]
+name = "Tweakeroo"
+side = "client"
+description = "All in one tool, Gamma view, zoom, flex placement block."
+choices = ["tweakeroo_off", "tweakeroo_on"]
+
 # metafile for fancy
 [metafile.3dskinlayers]
 flavors = "kucay_fancy"
@@ -174,8 +180,6 @@ flavors = "clienttweak_on"
 flavors = "clienttweak_on"
 [metafile.stendhal]
 flavors = "clienttweak_on"
-[metafile.tweakeroo]
-flavors = "clienttweak_on"
 [metafile.progresspeek]
 flavors = "clienttweak_on"
 [metafile.packed-packs]
@@ -210,3 +214,10 @@ flavors = "vivecraft_on"
 flavors = "experimental_on"
 [metafile.put-a-plug-in-it]
 flavors = "experimental_on"
+
+# Tweakeroo
+[metafile.malilib]
+flavors = "tweakeroo_on"
+[metafile.tweakeroo]
+flavors = "tweakeroo_on"
+
