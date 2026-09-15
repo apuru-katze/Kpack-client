@@ -1,13 +1,13 @@
 name = "Jasione"
-filename = "jasione-1.0.6+26.1.2-fabric.jar"
+filename = "jasione-1.0.8+26.1.2-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b9b22b24734f5e06faf1a9a5f7f8bc96d34aa70d"
+hash = "68d596617c49f4ab20bd84b27cc6779e9d071b9b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8492834
+file-id = 8729481
 project-id = 1595495

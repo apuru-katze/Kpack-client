@@ -1,13 +1,13 @@
 name = "Music Notification"
-filename = "musicnotification-fabric-3.2.0+mc26.2.jar"
+filename = "musicnotification-fabric-3.3.0+mc26.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8ff16c1df068cd4aca19475f00773dbe116b41e8"
+hash = "f6ea6837add832b3ec4ec3bd4531ed0cf9fe1619"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8439945
+file-id = 8599242
 project-id = 817206

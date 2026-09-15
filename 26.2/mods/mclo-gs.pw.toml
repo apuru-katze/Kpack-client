@@ -1,13 +1,13 @@
 name = "Mclogs - mclo.gs"
-filename = "mclogs-fabric-26.1-3.3.0.jar"
+filename = "mclogs-fabric-26.1-3.3.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1eb33541f61e0e068be91184fbc0698cad73e889"
+hash = "6a8e586734555fc4d37268da21d32185c5725470"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8299405
+file-id = 8647695
 project-id = 420561
